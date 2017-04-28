@@ -4,15 +4,21 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import {PostsModule} from './posts/posts.module';
+import { MarkdownModule } from 'angular2-markdown';
+import {MaterialModule} from "./material.module";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    PostsModule,
+    MarkdownModule.forRoot(),
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
