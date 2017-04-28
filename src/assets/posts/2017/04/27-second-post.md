@@ -1,1 +1,1 @@
-Second Post
+![Try!](automotivator.jpg)
